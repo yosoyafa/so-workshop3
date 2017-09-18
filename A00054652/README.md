@@ -104,5 +104,5 @@ El informe debe ser entregado en formato README.md y debe ser subido a un reposi
 * http://man7.org/linux/man-pages/man2/syscalls.2.html  
 * https://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/
 
-[1]: imagenes/Captura de pantalla 2017-09-17 a las 8.27.56 p.m..png  
-[2]: imagenes/Captura de pantalla 2017-09-17 a las 8.37.07 p.m..png
+[1]: images/Captura de pantalla 2017-09-17 a las 8.27.56 p.m..png  
+[2]: images/Captura de pantalla 2017-09-17 a las 8.37.07 p.m..png
