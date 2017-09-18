@@ -56,7 +56,8 @@ Parámetros: fd: descriptor de archivo que determina los bytes a leer.
 Descripción proceso: el sistema ejecuta el programa ‘ls’ (execve), luego determina hasta donde se almacenarán los datos que usará el proceso (brk); después se crea un espacio de direcciones del proceso (mmap), para después abrir los archivos que se han pedido (open), y por último, se pasan los datos de estos archivos a memoria (read).
 
 ![][1]  
-![][2]  
+
+![][2] 
 ______________________________
 
 2. Realice la compilación del código fuente adjunto y su ejecución empleando el aplicativo **strace**. Identifique las llamadas al sistema encargadas de enviar y recibir datos a través de la red. A partir de los manuales de Linux en Internet o del sistema operativo explique las llamadas al sistema encontradas y sus parámetros.
