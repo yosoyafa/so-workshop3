@@ -55,8 +55,8 @@ Parámetros: fd: descriptor de archivo que determina los bytes a leer.
 
 Descripción proceso: el sistema ejecuta el programa ‘ls’ (execve), luego determina hasta donde se almacenarán los datos que usará el proceso (brk); después se crea un espacio de direcciones del proceso (mmap), para después abrir los archivos que se han pedido (open), y por último, se pasan los datos de estos archivos a memoria (read).
 
-![][1]
-![][2]
+![][1]  
+![][2]  
 ______________________________
 
 2. Realice la compilación del código fuente adjunto y su ejecución empleando el aplicativo **strace**. Identifique las llamadas al sistema encargadas de enviar y recibir datos a través de la red. A partir de los manuales de Linux en Internet o del sistema operativo explique las llamadas al sistema encontradas y sus parámetros.
@@ -103,5 +103,5 @@ El informe debe ser entregado en formato README.md y debe ser subido a un reposi
 * http://man7.org/linux/man-pages/man2/syscalls.2.html  
 * https://jvns.ca/blog/2014/09/18/you-can-be-a-kernel-hacker/
 
-[1]: imagenes/Captura de pantalla 2017-09-17 a las 8.27.56 p.m..png
+[1]: imagenes/Captura de pantalla 2017-09-17 a las 8.27.56 p.m..png  
 [2]: imagenes/Captura de pantalla 2017-09-17 a las 8.37.07 p.m..png
